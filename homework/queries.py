@@ -162,9 +162,13 @@ def run():
         output_directory="files/query_4",
     )
 
+    run_mapreduce_job(
+        mapper=mapper_query_5,
+        reducer=reducer_query_5,
+        input_directory="files/input",
+        output_directory="files/query_5",
+    )    
+
 if __name__ == "__main__":
-
-    run()
-
 
     run()
